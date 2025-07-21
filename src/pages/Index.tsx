@@ -3,6 +3,9 @@ import HeroSection from "@/components/HeroSection";
 import MissionSection from "@/components/MissionSection";
 import SEOInsightsSection from "@/components/SEOInsightsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import TechOperationsHub from "@/components/TechOperationsHub";
+import QuantumDataCenter from "@/components/QuantumDataCenter";
+import AIInnovationLab from "@/components/AIInnovationLab";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -11,6 +14,9 @@ const Index = () => {
       <Navigation />
       <main>
         <HeroSection />
+        <TechOperationsHub />
+        <QuantumDataCenter />
+        <AIInnovationLab />
         <MissionSection />
         <SEOInsightsSection />
         <TestimonialsSection />

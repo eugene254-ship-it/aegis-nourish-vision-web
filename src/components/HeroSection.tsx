@@ -4,9 +4,9 @@ import heroImage from "@/assets/hero-banner.jpg";
 
 const HeroSection = () => {
   const stats = [
-    { icon: Users, value: "1.2M+", label: "Meals Distributed" },
-    { icon: Globe, value: "16", label: "Nations Served" },
-    { icon: Sprout, value: "800+", label: "Farmers Supported" },
+    { icon: Users, value: "2.8TB", label: "Data Processed Daily" },
+    { icon: Globe, value: "127", label: "Global Monitoring Sites" },
+    { icon: Sprout, value: "1,247", label: "Active AI Models" },
   ];
 
   return (
@@ -28,13 +28,13 @@ const HeroSection = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight">
-                Empowering Communities through{" "}
-                <span className="bg-gradient-to-r from-accent to-accent/80 bg-clip-text text-transparent">
-                  Ethical Nutrition
+                Ultra Tech{" "}
+                <span className="bg-gradient-to-r from-tech to-tech/80 bg-clip-text text-transparent">
+                  Nutrition Platform
                 </span>
               </h1>
               <p className="text-xl text-primary-foreground/90 max-w-2xl">
-                Harnessing AI, blockchain, and regenerative agriculture to create sustainable food systems that nourish mothers, children, and communities worldwide.
+                Advanced AI, quantum computing, and blockchain technology powering the world's most sophisticated nutrition intelligence platform for global impact.
               </p>
             </div>
 
@@ -75,28 +75,28 @@ const HeroSection = () => {
             <div className="relative">
               <div className="w-full h-96 bg-gradient-tech rounded-2xl p-8 shadow-tech animate-float">
                 <div className="space-y-6 text-tech-foreground">
-                  <h3 className="text-2xl font-semibold">AI-Powered Impact</h3>
+                  <h3 className="text-2xl font-semibold">Ultra Tech Metrics</h3>
                   <div className="space-y-4">
                     <div className="flex justify-between items-center">
-                      <span>Maternal Health Tracking</span>
-                      <span className="text-accent font-semibold">95%</span>
+                      <span>Quantum Processing</span>
+                      <span className="text-accent font-semibold">97%</span>
                     </div>
                     <div className="w-full bg-tech-foreground/20 rounded-full h-2">
-                      <div className="bg-accent h-2 rounded-full w-[95%]" />
+                      <div className="bg-accent h-2 rounded-full w-[97%]" />
                     </div>
                     <div className="flex justify-between items-center">
-                      <span>Nutrition Optimization</span>
-                      <span className="text-accent font-semibold">88%</span>
+                      <span>AI Model Accuracy</span>
+                      <span className="text-accent font-semibold">94%</span>
                     </div>
                     <div className="w-full bg-tech-foreground/20 rounded-full h-2">
-                      <div className="bg-accent h-2 rounded-full w-[88%]" />
+                      <div className="bg-accent h-2 rounded-full w-[94%]" />
                     </div>
                     <div className="flex justify-between items-center">
-                      <span>Climate Resilience</span>
-                      <span className="text-accent font-semibold">92%</span>
+                      <span>System Uptime</span>
+                      <span className="text-accent font-semibold">99.98%</span>
                     </div>
                     <div className="w-full bg-tech-foreground/20 rounded-full h-2">
-                      <div className="bg-accent h-2 rounded-full w-[92%]" />
+                      <div className="bg-accent h-2 rounded-full w-[99.98%]" />
                     </div>
                   </div>
                 </div>
