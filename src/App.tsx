@@ -12,6 +12,8 @@ import ImpactPage from "./pages/ImpactPage";
 import PartnersPage from "./pages/PartnersPage";
 import GetInvolvedPage from "./pages/GetInvolvedPage";
 import ReportsPage from "./pages/ReportsPage";
+import AuthPage from "./components/AuthPage";
+import Dashboard from "./components/Dashboard";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +25,8 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/auth" element={<AuthPage />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/solution" element={<SolutionPage />} />
           <Route path="/impact" element={<ImpactPage />} />

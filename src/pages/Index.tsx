@@ -6,6 +6,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import TechOperationsHub from "@/components/TechOperationsHub";
 import QuantumDataCenter from "@/components/QuantumDataCenter";
 import AIInnovationLab from "@/components/AIInnovationLab";
+import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
         <MissionSection />
         <SEOInsightsSection />
         <TestimonialsSection />
+        <ContactForm />
       </main>
       <Footer />
     </div>
