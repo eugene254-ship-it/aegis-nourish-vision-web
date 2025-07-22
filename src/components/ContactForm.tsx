@@ -25,15 +25,17 @@ const ContactForm = () => {
     setLoading(true);
 
     try {
-      // In a real startup, you'd save this to a leads/contacts table
+      // Save lead to the database
       const { error } = await supabase
-        .from('cases') // Using existing table for demo
+        .from('leads')
         .insert([
           {
-            title: `Lead: ${formData.service} inquiry from ${formData.name}`,
-            description: `Contact: ${formData.email}\nPhone: ${formData.phone}\nCompany: ${formData.company}\nMessage: ${formData.message}`,
-            category: 'lead',
-            status: 'pending'
+            name: formData.name,
+            email: formData.email,
+            company: formData.company,
+            phone: formData.phone,
+            service: formData.service,
+            message: formData.message
           }
         ]);
 
