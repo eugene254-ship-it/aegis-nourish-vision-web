@@ -6,6 +6,8 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import TechOperationsHub from "@/components/TechOperationsHub";
 import QuantumDataCenter from "@/components/QuantumDataCenter";
 import AIInnovationLab from "@/components/AIInnovationLab";
+import PricingSection from "@/components/PricingSection";
+import DonationSection from "@/components/DonationSection";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 
@@ -19,6 +21,8 @@ const Index = () => {
         <QuantumDataCenter />
         <AIInnovationLab />
         <MissionSection />
+        <PricingSection />
+        <DonationSection />
         <SEOInsightsSection />
         <TestimonialsSection />
         <ContactForm />

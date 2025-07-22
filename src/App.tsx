@@ -14,6 +14,8 @@ import GetInvolvedPage from "./pages/GetInvolvedPage";
 import ReportsPage from "./pages/ReportsPage";
 import AuthPage from "./components/AuthPage";
 import Dashboard from "./components/Dashboard";
+import PaymentSuccessPage from "./pages/PaymentSuccessPage";
+import DonationSuccessPage from "./pages/DonationSuccessPage";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +29,8 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/auth" element={<AuthPage />} />
           <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/payment-success" element={<PaymentSuccessPage />} />
+          <Route path="/donation-success" element={<DonationSuccessPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/solution" element={<SolutionPage />} />
           <Route path="/impact" element={<ImpactPage />} />

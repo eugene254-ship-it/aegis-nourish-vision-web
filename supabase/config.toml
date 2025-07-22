@@ -1,1 +1,50 @@
 project_id = "jklewwlnrlzomkaetjjo"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[graphql]
+enabled = true
+port = 54329
+max_rows = 1000
+
+[db]
+port = 54322
+
+[studio]
+enabled = true
+port = 54323
+
+[ingest]
+enabled = true
+port = 54324
+
+[storage]
+enabled = true
+port = 54325
+image_transformation = true
+duplicate_functions = false
+
+[auth]
+enabled = true
+port = 54326
+site_url = "http://localhost:3000"
+additional_redirect_urls = ["https://localhost:3000"]
+jwt_expiry = 3600
+enable_signup = true
+enable_email_confirmations = false
+enable_anonymous_signups = false
+
+[edge_functions]
+enabled = true
+port = 54327
+
+[functions.create-subscription]
+verify_jwt = false
+
+[functions.create-donation]
+verify_jwt = false
