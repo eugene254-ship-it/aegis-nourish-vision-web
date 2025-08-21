@@ -70,7 +70,7 @@ All while integrating **Social Progress Index (SPI)-style metrics** into dashboa
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-org/AEGIS-NOURISH.git
+git clone https://github.com/eugene254-ship-it/AEGIS-NOURISH.git
 cd AEGIS-NOURISH
 2. Install Dependencies
 npm install
