@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
-
-## Project info
-
-**URL**: https://lovable.dev/projects/ff233285-65ab-48ef-9fdf-347a4b6e20d6
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/ff233285-65ab-48ef-9fdf-347a4b6e20d6) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/ff233285-65ab-48ef-9fdf-347a4b6e20d6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🌍 AEGIS-NOURISH
+Where Ethics, AI, and Indigenous Knowledge Unite to End Hunger, Disease, and Thirst
+A Michael Green–inspired innovation to accelerate real progress on SDG 2 (Zero Hunger), SDG 3 (Good Health & Well-being), and SDG 6 (Clean Water & Sanitation).
+🔎 Problem
+Billions still face:
+Malnutrition (SDG 2)
+Preventable disease (SDG 3)
+Unsafe water (SDG 6)
+Progress is uneven, often slowed by:
+Broken data systems
+Top-down development models
+Limited community feedback
+Michael Green emphasizes: “GDP doesn’t tell us whether people are dying of preventable diseases or if children are going to school.” Instead, we must measure what matters and empower local solutions.
+💡 The Pivot Innovation
+AEGIS-NOURISH is a multi-agent AI governance system trained to co-design, deploy, and monitor localized, ethical interventions in food, health, and water — framed around community priorities and measurable social progress.
+🧬 Core Components
+SDG	AEGIS-NOURISH Feature	Description
+SDG 2: Zero Hunger 🌾	AgriEthic Agents	AI agents trained on indigenous food systems + predictive farming + blockchain food supply integrity
+SDG 3: Good Health 🏥	CareGraph Agents	Offline-first health dashboards for CHWs, clinics & hospitals. Fuses Sonar Deep Research + local cultural practices
+SDG 6: Clean Water 💧	AquaSentinel Network	IoT + satellite + mobile reporting tools for water safety, automated alerts, and ethics-based prioritization (e.g., children & maternal health zones)
+📊 Michael Green Integration
+Every dashboard integrates Social Progress Index–style metrics, including:
+📈 Real-time nutrition & disease rates
+🧑‍🤝‍🧑 Community participation in health planning
+💧 Water point functionality reports
+🌍 Ethics compliance heatmaps
+🛠️ Technologies
+Perplexity Sonar → reasoning on SDG tradeoffs & research summaries
+LangChain Agents → multi-agent negotiation for ethical resource allocation
+Supabase + Vite + TypeScript → rapid prototyping of dashboards
+Low-power edge AI → supports rural/off-grid environments
+Blockchain transparency → tracking food aid & medicine supply chains
+🌱 Why AEGIS-NOURISH?
+✔ Community-driven: villagers, youth & elders contribute directly
+✔ Data + Wisdom: AI merged with indigenous practices (e.g., medicinal herbs, water divining)
+✔ Ethics-first governance: anti-corruption, anti-exclusion, safeguards against AI misuse
+✔ Real-time dashboards: action-oriented and aligned with social progress
+🏆 Expected Impact by 2030
+🌾 45M food-insecure households stabilized across 20 African nations
+🧑‍⚕️ 120,000 community health workers (CHWs) gain real-time AI support
+💧 9M safe water access points mapped, monitored, and locally governed
+📖 Roadmap
+ Pilot testing with 3 communities (food, health, water focus)
+ Integration of indigenous datasets + ethical AI evaluation
+ Expand CareGraph Agents offline-first capabilities
+ Scale AquaSentinel across 5+ water-scarce nations
+ Public dashboard release with open SPI metrics
+🤝 Contributing
+We welcome contributions from:
+AI researchers (ethics, governance, and multi-agent systems)
+Indigenous knowledge experts & local community leaders
+NGOs, policymakers, and SDG-focused organizations
+Developers interested in open-source impact projects
+👉 To contribute, fork this repo and submit a pull request. Please review our CONTRIBUTING.md guidelines first.
+📜 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+🌍 Acknowledgments
+Inspired by Michael Green’s Social Progress Index and his call to measure what matters for real human well-being.
